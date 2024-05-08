@@ -1,0 +1,13 @@
+services:
+  app1:
+    build: .
+    init: true
+    environment:
+      - APP=app1
+      - ENV=compose
+  app2:
+    build: .
+    init: true
+    environment:
+      - APP=app2
+      - ENV=compose
